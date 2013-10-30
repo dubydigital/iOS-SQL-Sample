@@ -1,0 +1,3 @@
+BEGIN TRANSACTION;
+CREATE TABLE restaurants_tble (rid TEXT PRIMARY KEY, name TEXT, address TEXT, notes TEXT, ratings NUMERIC);
+COMMIT;
